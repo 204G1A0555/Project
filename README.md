@@ -2,7 +2,7 @@
 
 In this project we have done sentiment analysis along with offensive review detection, detection of suggestions in the text, overall sentiment percentage.
 
-##### Sentiment Analysis:
+#### Sentiment Analysis:
 for doing sentiment analysis we have used Convolutional Neural Networks for training the models.
 Our sentiment analyzer categorizes reviews into five groups: Negative, Semi-Negative, Neutral, Semi-Positive, and Positive.
 The files required to acheive this task are:
