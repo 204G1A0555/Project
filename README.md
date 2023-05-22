@@ -8,7 +8,7 @@ Our sentiment analyzer categorizes reviews into five groups: Negative, Semi-Nega
 The files required to acheive this task are:
 1. https://github.com/204G1A0555/Project/blob/master/finalmodel.ipynb     --- contains the code for training the model
 2. https://github.com/204G1A0555/Project/blob/master/dsadd.csv            --- dataset which we used to train our model
-3. models we got from this finalmodel.ipynb
+3. models we got from this finalmodel.ipynb 
    1. https://github.com/204G1A0555/Project/blob/master/model.h5
    2. https://github.com/204G1A0555/Project/blob/master/label_encoder.pkl
    3. https://github.com/204G1A0555/Project/blob/master/tokenizer.pkl
