@@ -2,35 +2,34 @@
 
 In this project we have done sentiment analysis along with offensive review detection, detection of suggestions in the text, overall sentiment percentage.
 
-Sentiment Analysis:
+##### Sentiment Analysis:
 for doing sentiment analysis we have used Convolutional Neural Networks for training the models.
 Our sentiment analyzer categorizes reviews into five groups: Negative, Semi-Negative, Neutral, Semi-Positive, and Positive.
 The files required to acheive this task are:
-1. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/finalmodel.ipynb     --- contains the code for training the model
-2. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/dsadd.csv            --- dataset which we used to train our model
+1. https://github.com/204G1A0555/Project/blob/master/finalmodel.ipynb     --- contains the code for training the model
+2. https://github.com/204G1A0555/Project/blob/master/dsadd.csv            --- dataset which we used to train our model
 3. models we got from this finalmodel.ipynb
-   1. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/model.h5
-   2. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/label_encoder.pkl
-   3. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/tokenizer.pkl
+   1. https://github.com/204G1A0555/Project/blob/master/model.h5
+   2. https://github.com/204G1A0555/Project/blob/master/label_encoder.pkl
+   3. https://github.com/204G1A0555/Project/blob/master/tokenizer.pkl
 
 
-
-detection of suggestions in the text:
+#### detection of suggestions in the text:
 for doing this we have used Convolutional Neural Networks for training the models. The files required to do this are:
-1. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/suggestionfinalmodel.ipynb      --- contains the code for training the model
-2. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/suggestiondataset.csv           --- dataset which we used to train our model
+1. https://github.com/204G1A0555/Project/blob/master/suggestionfinalmodel.ipynb      --- contains the code for training the model
+2. https://github.com/204G1A0555/Project/blob/master/suggestiondataset.csv           --- dataset which we used to train our model
 3. models we got from this finalmodel.ipynb
-   1. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/suggestionmodel.h5
-   2. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/suggestion_label_encoder.pkl
-   3. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/suggestiontokenizer.pkl
+   1. https://github.com/204G1A0555/Project/blob/master/suggestionmodel.h5
+   2. https://github.com/204G1A0555/Project/blob/master/suggestion_label_encoder.pkl
+   3. https://github.com/204G1A0555/Project/blob/master/suggestiontokenizer.pkl
 
 
-offensive review detection:
-the file containing code, for doing this task is:  https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/offensive%20content.ipynb
+#### offensive review detection:
+the file containing code, for doing this task is:  https://github.com/204G1A0555/Project/blob/master/offensive%20content.ipynb
 
 
-overall sentiment percentage:
-the file containing code, for completing this task is: https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/sentiment%20percentage.ipynb  
+#### overall sentiment percentage:
+the file containing code, for completing this task is: https://github.com/204G1A0555/Project/blob/master/sentiment%20percentage.ipynb  
 
 
 
@@ -38,17 +37,17 @@ the file containing code, for completing this task is: https://github.com/204G1A
 
 
 Since we have deployed our project prototype as web application, we have used flask framework for doing so.
-And we have written for doing so in the file: https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/Sentiment%20AnalysisApp.ipynb .
-In this code we have used files we got while training the models(  https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/finalmodel.ipynb,  https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/suggestionfinalmodel.ipynb).
+And we have written for doing so in the file: https://github.com/204G1A0555/Project/blob/master/Sentiment%20AnalysisApp.ipynb.
+In this code we have used files we got while training the models(https://github.com/204G1A0555/Project/blob/master/finalmodel.ipynb  ,  https://github.com/204G1A0555/Project/blob/master/suggestionfinalmodel.ipynb ).
 The html files which we have used for rendering the webpages are:
 
-1. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/home.html               ---- home page
-2. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/sentimentindex.html     ---- sentiment analysis
-3. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/fakereviewindex.html    ---- offensice review detection
-4. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/suggestionindex.html    ---- detection of suggestions in the tezt
-5. https://github.com/204G1A0502/SENTIMENT-ANALYSIS-MICRO-SERVICE-AVID-DEVS/blob/master/index.html              ---- overall sentiment percentage
+1. https://github.com/204G1A0555/Project/blob/master/home.html               ---- home page
+2. https://github.com/204G1A0555/Project/blob/master/sentimentindex.html     ---- sentiment analysis
+3. https://github.com/204G1A0555/Project/blob/master/fakereviewindex.html    ---- offensice review detection
+4. https://github.com/204G1A0555/Project/blob/master/suggestionindex.html    ---- detection of suggestions in the tezt
+5. https://github.com/204G1A0555/Project/blob/master/index.html              ---- overall sentiment percentage
 
-
+### Note: Make sure to have all your .html files in templates folder which should be located in the same folder as your flask app presents (https://github.com/204G1A0555/Project/blob/master/Sentiment%20AnalysisApp.ipynb).
 
 Here is the video link to gain some knowledge on our application working: https://drive.google.com/file/d/1JlHB2_ywuWDJjdYfkBUceGbCtw_OzkK8/view?usp=sharing
 
