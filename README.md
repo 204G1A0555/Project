@@ -25,11 +25,11 @@ for doing this we have used Convolutional Neural Networks for training the model
 
 
 #### offensive review detection:
-the file containing code, for doing this task is:  https://github.com/204G1A0555/Project/blob/master/offensive%20content.ipynb
+the file contains the code, for doing this task is:  https://github.com/204G1A0555/Project/blob/master/offensive%20content.ipynb
 
 
 #### overall sentiment percentage:
-the file containing code, for completing this task is: https://github.com/204G1A0555/Project/blob/master/sentiment%20percentage.ipynb  
+the file contains the code, for completing this task is: https://github.com/204G1A0555/Project/blob/master/sentiment%20percentage.ipynb  
 
 
 
@@ -37,7 +37,7 @@ the file containing code, for completing this task is: https://github.com/204G1A
 
 
 Since we have deployed our project prototype as web application, we have used flask framework for doing so.
-And we have written for doing so in the file: https://github.com/204G1A0555/Project/blob/master/Sentiment%20AnalysisApp.ipynb.
+And we have written code for doing that in the file: https://github.com/204G1A0555/Project/blob/master/Sentiment%20AnalysisApp.ipynb.
 In this code we have used files we got while training the models(https://github.com/204G1A0555/Project/blob/master/finalmodel.ipynb  ,  https://github.com/204G1A0555/Project/blob/master/suggestionfinalmodel.ipynb ).
 The html files which we have used for rendering the webpages are:
 
@@ -48,7 +48,3 @@ The html files which we have used for rendering the webpages are:
 5. https://github.com/204G1A0555/Project/blob/master/index.html              ---- overall sentiment percentage
 
 ### Note: Make sure to have all your .html files in templates folder which should be located in the same folder as your flask app presents (https://github.com/204G1A0555/Project/blob/master/Sentiment%20AnalysisApp.ipynb).
-
-Here is the video link to gain some knowledge on our application working: https://drive.google.com/file/d/1JlHB2_ywuWDJjdYfkBUceGbCtw_OzkK8/view?usp=sharing
-
-
